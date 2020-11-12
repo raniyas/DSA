@@ -4,17 +4,24 @@ import java.io.*;
 public class StringDuplicate {
 
 	public static void main(String[] args) throws IOException {
+	        #Input a string
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter a string");
 		String s = input.readLine();
-        Stack<Character> stack = new Stack<Character>();
-        char[] c = s.toCharArray();
-        for (int i=0; i<c.length-1; i++){
-            if(c[i]==c[i+1]){
-                stack.push(c[i]);
-            }
-        }
+		
+		#Create a stack to take in duplicate elements
+       		Stack<Character> stack = new Stack<Character>();
+		
+		#Convert the string to character array
+        	char[] c = s.toCharArray();
+		
+		#Iterate through the character array and push duplicate elements in a stack
+        	for (int i=0; i<c.length-1; i++){
+            		if(c[i]==c[i+1]){
+                		stack.push(c[i]);
+            		}
+        	}
+        #Display the stack		
         System.out.println(stack);
 	}
-
 }
