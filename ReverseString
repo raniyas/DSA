@@ -1,6 +1,3 @@
-import java.io.*; 
-import java.util.*;
-
 class Solution {
     public void reverseString(char[] s) {
         Stack<Character> stack = new Stack<Character>();
