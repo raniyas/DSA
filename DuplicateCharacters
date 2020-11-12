@@ -1,3 +1,5 @@
+#Problem -> Print duplicate characters from string - Take sample string and print all duplicate characters.
+
 import java.util.*;
 import java.io.*;
 
