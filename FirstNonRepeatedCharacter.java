@@ -22,7 +22,7 @@ public class FirstNonRepeatedCharacter {
 				array.add(c[i]);
 		}
 
-		for (i=0; i<c.length-1; i++){
+		for (i=0; i<c.length; i++){
 			flag = 0;
 			for (int j=0; j<array.size(); j++){
 			if(c[i]==array.get(j)){
