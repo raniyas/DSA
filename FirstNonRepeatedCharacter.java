@@ -1,4 +1,4 @@
-Problem --> Find first non repeated character of String - Take sample String and print first non-duplicate character.
+//Problem --> Find first non repeated character of String - Take sample String and print first non-duplicate character.
 
 import java.util.*;
 import java.io.*;
