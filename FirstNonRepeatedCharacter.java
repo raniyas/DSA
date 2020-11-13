@@ -25,9 +25,9 @@ public class FirstNonRepeatedCharacter {
 		for (i=0; i<c.length; i++){
 			flag = 0;
 			for (int j=0; j<array.size(); j++){
-			if(c[i]==array.get(j)){
-				flag = flag+1;
-			}
+				if(c[i]==array.get(j)){
+					flag = flag+1;
+				}
 			}
 			if(flag==1) {
 				result.add(c[i]);
