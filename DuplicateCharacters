@@ -6,9 +6,9 @@ import java.io.*;
 public class StringDuplicate {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter a string");
-		String s = input.readLine();
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+	System.out.println("Enter a string");
+	String s = input.readLine();
         int count = 0;
         ArrayList<Character> array = new ArrayList<Character>();
         
