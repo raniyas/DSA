@@ -27,21 +27,21 @@ public class RemoveAdjacentDuplicateElements2 {
 	                count=count+1;
 	                i=i+1;
 	                if(count==(k-1)){
-	                	for (int l=j; l<(k+j); l++) {
+	                    for (int l=j; l<(k+j); l++) {
 		                    array.remove(j);
 	                    }
-	                	i=0;
+	                    i=0;
 	                    j=0;
 	                    count=0;
 	                }
 	                else
 	                	continue;
-	            }
-	            else {
+	         }
+	         else {
 	            	j++;
 	            	i++;
-	            }
+	         }
 	   }
 	    System.out.println(array);
-	}
+      }
 }
