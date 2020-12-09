@@ -70,9 +70,6 @@ public class DiagonalSort {
 				System.out.print(mat[i][j]+" ");
 			}
 			System.out.println();
-		}
-		
-		
-		
+		}		
 	}
 }
