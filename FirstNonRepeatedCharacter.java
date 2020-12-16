@@ -33,7 +33,6 @@ public class FirstNonRepeatedCharacter {
 				result.add(c[i]);
 			}
 		}
-
 		System.out.println(result.get(0));
 		}
 }
