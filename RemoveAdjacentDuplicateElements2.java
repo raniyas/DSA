@@ -42,6 +42,6 @@ public class RemoveAdjacentDuplicateElements2 {
 	            	i++;
 	         }
 	   }
-	    System.out.println(array);
+	   System.out.println(array);
       }
 }
